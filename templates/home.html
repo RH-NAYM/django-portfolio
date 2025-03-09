@@ -10,45 +10,36 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="{% static 'img/profile_pic.jpeg' %}" rel="icon">
-  <link href="{% static 'img/profile_pic.jpeg' %}" rel="apple-touch-icon">
+  <link href="{% static 'img/profile_2.jpeg' %}" rel="icon">
+  <link href="{% static 'img/profile_2.jpeg' %}" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
   <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
   <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
   <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
   <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
   <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
-  <!-- BootStrap Link-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-  <!-- Template Main CSS File -->
   <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
 
 </head>
 
-{% comment %} <body style="background-image: url('{% static "img/b1.jpg" %}');"> {% endcomment %}
-
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="{% static 'img/600_600_CV_Image.jpg' %}" alt="" class="img-fluid rounded-circle">
+        <img src="{% static 'img/profile_1.jpg' %}" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="home.html">MD Rakibul Hasan</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://github.com/RH-NAYM" class="github"><i class="bx bxl-github"></i></a>
@@ -69,34 +60,22 @@
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  {% comment %} <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>MD Rakibul Hasan</h1>
-      <p>I'm <span class="typed"
-          data-typed-items="AI Engineer, Freelancer, Python Developer."></span></p>
-    </div>
-
-  </section><!-- End Hero --> {% endcomment %}
-  <style>
+      </nav></div>
+  </header><style>
     .paragraph-gap {
-      margin-bottom: 30px; /* You can adjust the value as needed */
+      margin-bottom: 30px;
     }
   </style>
 
-    <section id="hero" class="d-flex flex-column justify-content-center align-items-center" style="background-image: url('static/img/cover_pic.jpg'); background-size:cover; background-position: center;">
-      <div class="hero-container" data-aos="fade-in">
-        <h1>MD Rakibul Hasan</h1>
-        <p>I'm <span class="typed" data-typed-items="AI Engineer, Freelancer, Python Developer."></span></p>
-      </div>
-    </section>
-    <main id="main">
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center"
+    style="background-image: url('{% static 'img/cover_pic.jpg' %}'); background-size:cover; background-position: center;">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>MD Rakibul Hasan</h1>
+      <p>I'm <span class="typed" data-typed-items="AI Engineer, Freelancer, Python Developer."></span></p>
+    </div>
+  </section>
+  <main id="main">
 
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
 
@@ -116,7 +95,7 @@
             <ul>
               HawkEyes Digital Monitoring Limited, Dhaka<br>
               <em>March, 2023.</em>
-            
+
               <ul>
                 <li>Build Custom Dataset for AI training using (Label-studio, Roboflow, Labelimg, and Labelme).</li>
                 <li>Train different AI models and perform Hyper-parameter Tuning on the ensembled models using Python (Local Machine, Google Colaboratory, and Vast-AI) for commercial use.</li>
@@ -182,7 +161,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'img/profile_pic.jpeg' %}" class="img-fluid" alt="">
+            <img src="{% static 'img/profile_2.jpeg' %}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Python &amp; Web Developer &amp; Odoo Developer &amp;Javascript &amp; Full-Stack.</h3>
